@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sandwich Cubano</string>
+
+    <string name="p">Publicidad</string>
+    <string name="m">Mapa</string>
+    <string name="c">Adicionar Coordenadas</string>
+    <string name="p1">publicidad 1</string>
+    <string name="p2">publicidad 2</string>
+    <string name="p3">publicidad 3</string>
+    <string name="p4">publicidad 4</string>
+    <string name="se">Sede</string>
+    <string name="Lo">Longitud</string>
+    <string name="La">Latitud</string>
+    <string name="Ag">Agregar</string>
+    <string name="Vs">Ver Sucursales</string>
+    <string name="B">Borrar</string>
+    <string name="Err">Ingrese todos los datos</string>
+    <string name="Pa">Posicion Actual</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_publicidad_cubanos">PublicidadCubanos</string>
+    <string name="title_activity_mapa">mapa</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_publicidad">Publicidad</string>
+</resources>

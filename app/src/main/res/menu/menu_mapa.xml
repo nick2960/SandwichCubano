@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nicolasposada.sandwichcubano.mapa">
+    <item
+        android:id="@+id/showmain"
+        android:title="database"/>
+    <item
+        android:id="@+id/showpubli"
+        android:title="PublicidadCubano"/>
+</menu>
