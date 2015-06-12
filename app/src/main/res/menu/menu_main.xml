@@ -6,5 +6,5 @@
         android:title="@string/title_activity_mapa"/>
     <item
         android:id="@+id/showpubli1"
-        android:title="Inicio"/>
+        android:title="@string/p"/>
 </menu>

@@ -68,7 +68,7 @@ public class mapa extends ActionBarActivity implements
     }
 
     public void cargarRest(){
-        DataBaseManager Manager = MainActivity.getManager();
+        DataBaseManager Manager = Publicidad.getManager();
         cursor = Manager.cargarCursorContactos();
         if (cursor.moveToFirst()){
             do{
@@ -111,12 +111,12 @@ public class mapa extends ActionBarActivity implements
             Intent f = new Intent(this,MainActivity.class);
             startActivity(f);
             return true;
-        }/*
+        }
         if (id == R.id.showpubli) {
             Intent m = new Intent(this,Publicidad.class);
             startActivity(m);
             return true;
-        }*/
+        }
 
         return super.onOptionsItemSelected(item);
     }

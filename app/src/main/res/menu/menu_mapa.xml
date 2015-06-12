@@ -4,8 +4,8 @@
     tools:context="com.nicolasposada.sandwichcubano.mapa">
     <item
         android:id="@+id/showmain"
-        android:title="database"/>
+        android:title="@string/c"/>
     <item
         android:id="@+id/showpubli"
-        android:title="PublicidadCubano"/>
+        android:title="@string/p"/>
 </menu>

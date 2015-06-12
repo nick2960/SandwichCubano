@@ -22,7 +22,7 @@ import java.util.TooManyListenersException;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
-    private static DataBaseManager Manager;
+    DataBaseManager Manager = Publicidad.getManager();
     private Cursor cursor;
     private ListView lista;
     private SimpleCursorAdapter adapter;
@@ -60,9 +60,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     }
 
-    public static DataBaseManager getManager() {
+    /*public static DataBaseManager getManager() {
         return Manager;
-    }
+    }*/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -84,12 +84,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             Intent m = new Intent(this,mapa.class);
             startActivity(m);
             return true;
-        }/*
+        }
         if (id == R.id.showpubli1) {
             Intent ma = new Intent(this,Publicidad.class);
             startActivity(ma);
             return true;
-        }*/
+        }
 
         return super.onOptionsItemSelected(item);
     }
